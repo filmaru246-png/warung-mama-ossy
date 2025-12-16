@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warung MAMA OSSY | Bakso • Mie Ayam • Soto Ayam</title>
+
+  <!-- SEO & Preview WhatsApp -->
+  <meta name="description" content="Warung MAMA OSSY - Bakso, Mie Ayam & Soto Ayam murah dan enak di Kroya, Cilacap. Pesan via WhatsApp." />
+  <meta property="og:title" content="Warung MAMA OSSY" />
+  <meta property="og:description" content="Bakso Rp5.000–13.000 | Mie Ayam Rp10.000 | Soto Ayam Rp10.000" />
+  <meta property="og:image" content="https://via.placeholder.com/600x400.png?text=Warung+MAMA+OSSY" />
+  <meta property="og:type" content="website" />
+
+  <style>
+    * { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body {
+      margin:0;
+      background: linear-gradient(135deg,#ff9800,#ff5722,#ffc107);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      color:#fff;
+      overflow-x:hidden;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position:0% 50%;}
+      50% {background-position:100% 50%;}
+      100% {background-position:0% 50%;}
+    }
+
+    header {
+      padding:60px 20px;
+      text-align:center;
+      animation: fadeDown 1.5s ease;
+    }
+
+    header h1 { font-size:3em; margin:0; }
+    header p { font-size:1.2em; }
+
+    marquee {
+      background:#fff;
+      color:#ff5722;
+      padding:10px;
+      font-weight:bold;
+    }
+
+    section {
+      padding:60px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .menu {
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap:30px;
+    }
+
+    .card {
+      background:#fff;
+      color:#333;
+      border-radius:20px;
+      padding:25px;
+      text-align:center;
+      box-shadow:0 20px 40px rgba(0,0,0,0.3);
+      transform: perspective(800px) rotateY(0deg);
+      transition:0.5s;
+    }
+
+    .card img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      border-radius:15px;
+      margin-bottom:15px;
+    }
+
+    .card:hover {
+      transform: perspective(800px) rotateY(10deg) translateY(-10px);
+    }
+
+    .card h3 { color:#ff5722; }
+
+    .btn-wa {
+      display:inline-block;
+      margin-top:15px;
+      background:#25D366;
+      color:#fff;
+      padding:12px 20px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn-wa:hover { background:#1ebc5a; transform:scale(1.05); }
+
+    .unggulan {
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap:20px;
+      text-align:center;
+    }
+
+    .unggulan div {
+      background:rgba(255,255,255,0.15);
+      padding:25px;
+      border-radius:20px;
+      backdrop-filter: blur(6px);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    footer {
+      background:#000;
+      text-align:center;
+      padding:30px;
+    }
+
+    @keyframes fadeDown {
+      from { opacity:0; transform: translateY(-40px); }
+      to { opacity:1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+
+<marquee>🍜 Bakso Rp5.000–13.000 | Mie Ayam Rp10.000 | Soto Ayam Rp10.000 • Pesan via WhatsApp 085288764894 🍜</marquee>
+
+<header id="beranda">
+  <h1>WARUNG MAMA OSSY</h1>
+  <p>Bakso • Mie Ayam • Soto Ayam</p>
+  <a class="btn-wa" href="https://wa.me/6285288764894" target="_blank">Pesan Sekarang via WhatsApp</a>
+</header>
+
+<section id="menu">
+  <h2>🍽️ Menu Andalan</h2>
+  <div class="menu">
+    <div class="card">
+      <img src="bakso.jpg" alt="Bakso">
+      <h3>Bakso</h3>
+      <p>Harga mulai</p>
+      <h2>Rp5.000 – Rp13.000</h2>
+      <a class="btn-wa" href="https://wa.me/6285288764894?text=Pesan+Bakso" target="_blank">Pesan</a>
+    </div>
+    <div class="card">
+      <img src="mieayam.jpg"  alt="Mie Ayam ">
+      <h3>Mie Ayam</h3>
+      <p>Harga</p>
+      <h2>Rp10.000</h2>
+      <a class="btn-wa" href="https://wa.me/6285288764894?text=Pesan+Mie+Ayam" target="_blank">Pesan</a>
+    </div>
+    <div class="card">
+      <img src="sotoayam.jpg" alt="Soto Ayam">
+      <h3>Soto Ayam</h3>
+      <p>Harga</p>
+      <h2>Rp10.000</h2>
+      <a class="btn-wa" href="https://wa.me/6285288764894?text=Pesan+Soto+Ayam" target="_blank">Pesan</a>
+    </div>
+  </div>
+</section>
+
+<section id="keunggulan">
+  <h2>⭐ Keunggulan Kami</h2>
+  <div class="unggulan">
+    <div>🥣 Rasa Enak & Konsisten</div>
+    <div>💸 Harga Merakyat</div>
+    <div>🧼 Bersih & Higienis</div>
+    <div>📍 Lokasi Strategis</div>
+  </div>
+</section>
+
+<section id="kontak">
+  <h2>📞 Kontak & Lokasi</h2>
+  <p><b>Alamat:</b> Jl. Kepodang RT.01 RW.03 Bajing Kulon, Kroya, Cilacap</p>
+  <p><b>WhatsApp:</b> 0852-8876-4894</p>
+  <a class="btn-wa" href="https://wa.me/6285288764894" target="_blank">Chat WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2025 Warung MAMA OSSY | Kuliner Kroya Cilacap</p>
+</footer>
+
+</body>
+</html>
